@@ -1,0 +1,10 @@
+1.
+Tenemos un hotel (hotel infinito) en el que los clientes que llegan tienen un comportamiento de lo más curioso. El día de la inauguración, llegó un sólo huésped, que pasó una noche. Cuando se marchó, llegó un grupo de dos personas, que estuvieron en el hotel dos noches. Al marcharse, fueron sustituidos por un grupo de tres personas, que durmieron tres noches. ¿Cuántos huéspedes tendrá el hotel en la noche número 21? ¿Y en la noche 100? ¿Y en la 100.000?
+Se pide crear una clase HotelInfinito que contenga el número de noches que lleva funcionando y aparte del constructor y los getters y setters adecuados tenga un método llamado numHuespedes que devuelva el número de huéspedes que durmieron esa noche en ese hotel. Crear una aplicación principal que cree un objeto de la clase HotelInfinito y devuelva el número de huéspedes que hay si ese hotel lleva funcionando 21 noches, 100 noches y 100000 noches.
+
+2.
+Vamos a hacer una aplicación principal con un menú que sólo tendrá una opción. El menú se repetirá hasta que el usuario no indique la única opción o la opción de Salir. La única opción que permite el menú (Suma de cifras) y la función que debe hacer el programa será pedir un número natural por teclado (debe controlar que sean enteros positivos) y devolver por pantalla la descomposición de las cifras del número dado y el resultado de su suma. Por ejemplo: 
+234 ? 2 + 3 + 4 = 9
+3 ? 3 = 3
+10 ? 1 + 0 = 1
+Cuando se muestre por pantalla la acción solicitada, deberá aparecer de nuevo el menú del programa. Esto ocurrirá hasta que el usuario no seleccione la opción de Salir. No se permite el uso de Wrappers y la suma de cifra que se muestra por pantalla debe ir en orden decreciente hasta las unidades.
